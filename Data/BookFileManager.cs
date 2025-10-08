@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
+using LibraryManagement.Models;
+
 namespace LibraryManagement.Data
 {
     public class BookFileManager
