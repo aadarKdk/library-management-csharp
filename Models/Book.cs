@@ -1,9 +1,11 @@
-public class Book
+namespace LibraryManagement
 {
-    public int Id { get; private set; }
-    public string Title { get; set; }
-    public string Author { get; set; }
-    public bool IsAvailable { get; set; }
+    public class Book
+    {
+        public int Id { get; private set; }
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public bool IsAvailable { get; set; }
 
     public Book(int id, string title, string author, bool isAvailable)
     {
@@ -36,4 +38,5 @@ public class Book
         bool isAvailable = bool.Parse(parts[3]);
         return new Book(id, title, author, isAvailable);
     }
+}
 }

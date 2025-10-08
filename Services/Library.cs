@@ -1,25 +1,28 @@
 using System.Collections.Generic;
 
-class Library
+namespace LibraryManagement.Services
 {
-    private List<Book> books;
-
-    public Library()
+    public class Library
     {
-        books = new List<Book>();
+        private List<Book> books;
+
+        public Library()
+        {
+            books = new List<Book>();
+        }
+        public void AddBook(Book book)
+        { }
+
+        public void BorrowBook()
+        { }
+
+        public void ReturnBook()
+        { }
+
+        public void ViewAllBooks()
+        { }
+        public void SearchBooks()
+        { }
     }
-    public void AddBook(Book book)
-    { }
-
-    public void BorrowBook()
-    { }
-
-    public void ReturnBook()
-    { }
-
-    public void ViewAllBooks()
-    { }
-    public void SearchBooks()
-    { }
 }
 
