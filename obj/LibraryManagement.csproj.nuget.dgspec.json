@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/aadarkdk/Desktop/backend-intern/library-management-csharp/LibraryManagement/LibraryManagement.csproj": {}
+    "/home/aadarkdk/Desktop/backend-intern/library-management-csharp/LibraryManagement.csproj": {}
   },
   "projects": {
-    "/home/aadarkdk/Desktop/backend-intern/library-management-csharp/LibraryManagement/LibraryManagement.csproj": {
+    "/home/aadarkdk/Desktop/backend-intern/library-management-csharp/LibraryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aadarkdk/Desktop/backend-intern/library-management-csharp/LibraryManagement/LibraryManagement.csproj",
+        "projectUniqueName": "/home/aadarkdk/Desktop/backend-intern/library-management-csharp/LibraryManagement.csproj",
         "projectName": "LibraryManagement",
-        "projectPath": "/home/aadarkdk/Desktop/backend-intern/library-management-csharp/LibraryManagement/LibraryManagement.csproj",
+        "projectPath": "/home/aadarkdk/Desktop/backend-intern/library-management-csharp/LibraryManagement.csproj",
         "packagesPath": "/home/aadarkdk/.nuget/packages/",
-        "outputPath": "/home/aadarkdk/Desktop/backend-intern/library-management-csharp/LibraryManagement/obj/",
+        "outputPath": "/home/aadarkdk/Desktop/backend-intern/library-management-csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aadarkdk/.nuget/NuGet/NuGet.Config"
