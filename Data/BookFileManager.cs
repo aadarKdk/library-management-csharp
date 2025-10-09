@@ -63,5 +63,25 @@ namespace LibraryManagement.Data
             Console.WriteLine($"Book '{newBook.Title}' added successfully.");
             return true;
         }
+
+        public List<Book> GetAllBooks()
+        {
+            return new List<Book>(books);
+        }
+
+        public Book? GetBookById(int id)
+        {
+            return books.Find(b => b.Id == id);
+        }
+
+        public List<Book> FindBooksByTitle(string title)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+            {
+                return new List<Book>();
+            }
+            return books.FindAll(b => b.Title.Contains(title, StringComparison.OrdinalIgnoreCase));
+
+        }
     }
 }
